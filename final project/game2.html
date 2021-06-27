@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project by Felicia Chou [資工一 周佳蒨 110910549]</title>
+<meta charset="UTF-8" />
+<script src="game2.js"></script>
+<link rel="canvas" href="game2.css"/>
+</head>
+<body onload="startGame()">
+   
+    <div style="text-align:center;width:480px;">
+        <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+        <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+        <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+        <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button><br><br><br>
+      </div>
+      <button onClick="window.location.reload();">Restart</button><br>
+      <p>Score lower than 8000 : Beginner <br>
+      Score 8000 ~ 35000 : Intermediate <br>
+    Score 35000 ~ 100000 : Advanced <br>
+  Score more than 100000 : Expert <br>
+</p>
+      <style>
+        .buttonme {
+          background-color: rgb(170, 170, 170); 
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 18px;
+          margin: 4px 2px;
+          transition-duration: 0.6s;
+          cursor: pointer;
+          margin-left: 10%;
+        }
+        
+        .buttonmenu:hover {
+          background-color: white; 
+          color: black; 
+        }
+      </style>
+        
+       <br><br><a href="main page.html"><button class="buttonme buttonmenu">Back to Home</button></a>
+       <br><br><br><br><br>
+</body>
+</html>

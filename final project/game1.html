@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Project by Felicia Chou [資工一 周佳蒨 110910549]</title>
+<meta charset="UTF-8" />
+<script src="game1.js"></script>
+<link rel="stylesheet" type="text/css" href="game1.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>Hangman</h1>
+         <h2>Vanilla JavaScript Hangman Game</h2>
+         <a href="https://smtown-nctzens.fandom.com/wiki/NCT_Wiki">
+            <button class="button button">NCT Category</button>
+          </a>
+          <a href="https://genius.com/Nct-dream-x-pinkfong-dinosaurs-a-to-z-lyrics">
+            <button class="button button">Dino ABC Category</button>
+          </a>
+         <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+     </div>
+     <div class="wrapper">
+         <div id="buttons">
+         </div>  
+         <p id="catagoryName"></p>
+         <div id="hold">
+         </div>
+         <p id="mylives"></p>
+         <p id="clue">Clue -</p>  
+          <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+         <div class="container">
+           <button id="hint">Hint</button>
+           <button id="reset">Play again</button>
+         </div>
+     </div>
+     <style>
+      .buttonme {
+        background-color: rgb(170, 170, 170); 
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        transition-duration: 0.6s;
+        cursor: pointer;
+        margin-left: 0%;
+      }
+      
+      .buttonmenu:hover {
+        background-color: white; 
+        color: black; 
+      }
+    </style>
+      
+     <br><a href="main page.html"><button class="buttonme buttonmenu">Back to Home</button></a>
+     <br><br><br><br><br>
+</body>
+</html>
+
